@@ -4,7 +4,7 @@ require(ieugwasr)
 require(ggplot2)
 require(MRPRESSO)
 library(officer)
-source("/home/students/federica.grosso/nas/funzioni.R")
+source("/home/students/federica.grosso/nas/MR_PRESSO_plots.R")
 # Leggi il percorso del file dalla linea di comando
 args <- commandArgs(trailingOnly = TRUE)
 file_path_exposure <- args[1]
