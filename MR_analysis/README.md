@@ -1,6 +1,6 @@
 1. Taking your clumping results and your entire GWAS of outcome, start with ***run_analysis.sh*** to run analysis of **MR.R** with a for loop each of 37 GWAS of exposure vs outcome
 2. This analysis includes:
-   - a. Harmonization
+   a. Harmonization
    b. Main MR analysis with IVW, MR-Egger, Weighted median
    c. Pleiotropy
    d. Heterogeneity
