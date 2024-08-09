@@ -1,6 +1,6 @@
 ---
 title: "Statistical power"
-author: "Federica Grosso 904701"
+author: "Federica Grosso"
 date: "2024-08-06"
 output:
   pdf_document: default
