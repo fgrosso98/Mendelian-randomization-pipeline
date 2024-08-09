@@ -365,7 +365,7 @@ ggplot(combined_results, aes(x = Beta, y = Power, color = Group, group = Group))
   geom_line(lwd = 1) +
   scale_color_manual(values = c("GCST90027754" = "#1f77b4", "GCST90032220" = "#ff7f0e")) +
   labs(x = expression(Causal~Effect~(beta)),
-       y = "Power (%)") +
+       y = "Power (%)",  color = "Exposure") +
   theme_minimal() +
   theme(
     panel.border = element_rect(color = "darkgrey", fill = NA, size = 1),
